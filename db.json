@@ -1,1 +1,17 @@
-
+{
+    "contacts": [
+      {
+        "id": 1,
+        "name": "Cleopatra",
+        "email": "QueenCleo@example.com",
+        "phone": "123-456-7890"
+      },
+      {
+        "id": 2,
+        "name": "King Tut",
+        "email": "BigKing@example.com",
+        "phone": "987-654-3210"
+      }
+    ]
+  }
+  

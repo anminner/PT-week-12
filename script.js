@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // Function to fetch contacts from the API
+    
     function fetchContacts() {
         $.ajax({
             url: 'https://mockapi.io/api/v1/contacts',
@@ -12,11 +12,9 @@ $(document).ready(function() {
             }
         });
     }
-
-    // Fetch contacts when the page loads
+    
     fetchContacts();
 
-    // Event listener for form submission
     $('#contactForm').submit(function(event) {
         event.preventDefault();
         var name = $('#name').val();
@@ -31,8 +29,7 @@ $(document).ready(function() {
             }
         });
     });
-
-    // Event listener for delete buttons
+    
     $(document).on('click', '.deleteBtn', function() {
         var id = $(this).data('id');
         $.ajax({
