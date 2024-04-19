@@ -24,5 +24,7 @@
 
 .deleteBtn {
     margin-left: 20px;
+    display:flex;
+    justify-content: center;
 }
 
