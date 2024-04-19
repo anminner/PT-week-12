@@ -1,1 +1,28 @@
+.container {
+    max-width: 500px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#contactList {
+    margin-top: 10px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteBtn {
+    margin-left: 20px;
+}
 
